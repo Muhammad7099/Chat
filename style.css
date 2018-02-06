@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 30px;
+	color: #777;
+	background: #0CF;
+}
+
+.container{
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#check_in input[type="text"], #check_in input[type="password"], #check_in input[type="tel"], #check_in input[type="email"], #check_in textarea, #check_in button[type="submit"]{
+	font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#check_in{
+	background: #f9f9f9;
+	padding: 25px;
+	margin: 50px 0;
+}
+
+#check_in h3{
+	color: #f96;
+	display: block;
+	font-size: 13px;
+}
+
+#check_in h4{
+	margin: 5px 0 15px;
+	display: block;
+	font-size: 13px;
+}
+
+fieldset{
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#check_in input[type="text"], #check_in input[type="password"], #check_in input[type="tel"], #check_in input[type="email"], #check_in textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	background: #f9f9f9;
+	margin: 0 0 5px;
+	padding: 10px;
+}
+
+#check_in input[type="text"]:hover, #check_in input[type="password"]:hover, #check_in input[type="tel"]:hover, #check_in input[type="email"]:hover, #check_in textarea:hover{
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid #aaa;
+}
+
+#check_in textarea{
+	height: 100px;
+	max-width: 100%;
+	resize: none;
+}
+
+#check_in button[type="submit"]{
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background: #0CF;
+	color: #fff;
+	margin: 0 0 5px;
+	padding: 10px;
+	font-size: 15;
+}
+
+#check_in button[type="submit"]:hover{
+	background: #09c;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#check_in button[type="submit"]:active{
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#check_in input:focus, #check_in textarea:focus{
+	outline: 0;
+	border: 1px solid #999;
+}
+
+::-webkit-input-plaxeholder{
+	color: #888;
+}
+
+:-moz-plaxeholder{
+	color: #888;
+}
+
+::-moz-plaxeholder{
+	color: #888;
+}
+
+:-ms-input-plaxeholder{
+	color: #888;
+}
+
+::-ms-input-plaxeholder{
+	color: #888;
+}
+
